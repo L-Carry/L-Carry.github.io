@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Carry'Blog🥝!`,
+    `欢迎来到Carry'Blog!`,
     `viva la vida`,
     `
         
@@ -3173,10 +3173,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://cdn.staticaly.com/gh/L-Carrey/pic_bed@main/img/day01.jpg);
-    --darkmode-bg:url(https://cdn.staticaly.com/gh/L-Carrey/pic_bed@main/img/night01.jpg);
-    --mobileday-bg: url(https://cdn.staticaly.com/gh/L-Carrey/pic_bed@main/img/day01.jpg);
-    --mobilenight-bg: url(https://cdn.staticaly.com/gh/L-Carrey/pic_bed@main/img/night01.jpg);
+    --default-bg: url(https://cdn.staticaly.com/gh/L-Carry/pic_bed@main/img/day01.jpg);
+    --darkmode-bg: url(https://cdn.staticaly.com/gh/L-Carry/pic_bed@main/img/night01.jpg);
+    --mobileday-bg: url(https://cdn.staticaly.com/gh/L-Carry/pic_bed@main/img/day01.jpg);
+    --mobilenight-bg: url(https://cdn.staticaly.com/gh/L-Carry/pic_bed@main/img/night01.jpg);
   }`;
 }
 // 切换背景主函数
