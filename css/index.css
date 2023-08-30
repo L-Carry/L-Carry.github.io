@@ -8763,16 +8763,6 @@ span.card-clock-weather {
   font-size:16px;
 }
 
-.card-announcement .item-headline span{
-  margin-left:0!important;
-}
-
-.card-announcement span{
-  font-weight:bold;
-  font-size:20px!important;
-  color:var(--ichika-color);
-}
-
 /* 关于页面区块 */
 .about_page {
   background: #fafafa;
