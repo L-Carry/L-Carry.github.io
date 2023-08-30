@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'C5GBZ-YD6C7-APEXI-PR3ZU-CL5NZ-UXF57',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -137,13 +137,13 @@ function showWelcome() {
           posdesc = "北——京——欢迎你~~~";
           break;
         case "天津市":
-          posdesc = "讲段相声吧。";
+          posdesc = "来了天津卫，我嘛也没学会~";
           break;
         case "河北省":
           posdesc = "山势巍巍成壁垒，天下雄关。铁马金戈由此向，无限江山。";
           break;
-        case "山西省":
-          posdesc = "展开坐具长三尺，已占山河五百余。";
+        case "河南省":
+          posdesc = "老乡见老乡。两眼泪汪汪。";
           break;
         case "内蒙古自治区":
           posdesc = "天苍苍，野茫茫，风吹草低见牛羊。";
@@ -158,7 +158,7 @@ function showWelcome() {
           posdesc = "很喜欢哈尔滨大剧院。";
           break;
         case "上海市":
-          posdesc = "众所周知，中国只有两个城市。";
+          posdesc = "沪爷来了，里面请。";
           break;
         case "江苏省":
           switch (ipLoacation.result.ad_info.city) {
@@ -175,28 +175,6 @@ function showWelcome() {
           break;
         case "浙江省":
           posdesc = "东风渐绿西湖柳，雁已还人未南归。";
-          break;
-        case "河南省":
-          switch (ipLoacation.result.ad_info.city) {
-            case "郑州市":
-              posdesc = "豫州之域，天地之中。";
-              break;
-            case "南阳市":
-              posdesc = "臣本布衣，躬耕于南阳。此南阳非彼南阳！";
-              break;
-            case "驻马店市":
-              posdesc = "峰峰有奇石，石石挟仙气。嵖岈山的花很美哦！";
-              break;
-            case "开封市":
-              posdesc = "刚正不阿包青天。";
-              break;
-            case "洛阳市":
-              posdesc = "洛阳牡丹甲天下。";
-              break;
-            default:
-              posdesc = "可否带我品尝河南烩面啦？";
-              break;
-          }
           break;
         case "安徽省":
           posdesc = "蚌埠住了，芜湖起飞。";
